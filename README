@@ -1,5 +1,16 @@
+DICLAIMER:
+Do not use this distribution on any network you do not own or have
+permission to use.
+
+This distibution contains many penetration tests that should only be used against your own systems and software.
+
+By using the distribution and programs, you are taking responsibilty for any and all damage and chaos you will inflict on systems, networks or software you do not have permission to attack, probe or scan.
+
+
+=====================
+
 This README file contains information on the contents of the
-kūpale layer.
+kupale layer.
 
 Please see the corresponding sections below for details.
 
@@ -24,41 +35,8 @@ This layer depends on:
 Patches
 =======
 
-Please submit any patches against the kūpale layer to the
-xxxx mailing list (xxxx@zzzz.org) and cc: the maintainer:
+Please submit any patches against the kupale layer to the
+Me.
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: Armin Kuster <akuster808@gmail.com>
 
-
-Table of Contents
-=================
-
-  I. Adding the kūpale layer to your build
- II. Misc
-
-
-I. Adding the kūpale layer to your build
-=================================================
-
---- replace with specific instructions for the kūpale layer ---
-
-In order to use this layer, you need to make the build system aware of
-it.
-
-Assuming the kūpale layer exists at the top-level of your
-yocto build tree, you can add it to the build system by adding the
-location of the kūpale layer to bblayers.conf, along with any
-other layers needed. e.g.:
-
-  BBLAYERS ?= " \
-    /path/to/yocto/meta \
-    /path/to/yocto/meta-yocto \
-    /path/to/yocto/meta-yocto-bsp \
-    /path/to/yocto/meta-kūpale \
-    "
-
-
-II. Misc
-========
-
---- replace with specific information about the kūpale layer ---
