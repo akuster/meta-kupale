@@ -8,6 +8,7 @@ inherit packagegroup
 RDEPENDS_${PN} = "\
     apache2 \
     atftpd \
+    axel \
     expect \
     florence \
     git \
@@ -30,20 +31,6 @@ RDEPENDS_${PN} = "\
     tcpdump \
     netkit-tftp \
     tmux \
-    vim \
-"
-
-RDEPENDS_packagegroup-kapule-need-add = " \
-    axel \
-    desktop-base \
-    mercurial \
-    mysql-server \
-    php-mysql \
-    rcconf \
-    rdesktop \
-    sysv-rc-conf \
     testdisk \
-    tightvncserver \
-    unrar \
-    upx-ucl \
+    vim \
 "
