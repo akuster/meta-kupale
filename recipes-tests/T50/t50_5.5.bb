@@ -15,7 +15,7 @@ do_configure () {
 }
 
 do_compile () {
-    make CC="${CC}"
+    make CC="${CC}" DEBUG=1
     gzip -9c ${S}/doc/t50.8 > ${S}/release/t50.8.gz
 }
 
@@ -24,7 +24,7 @@ do_install () {
     install -d ${D}/${mandir}/man8
     install -d ${D}/${docdir}/t50
 
-    install -m 644 ${B}/release/t50 ${D}/${bindir}
+    install -m 755 ${B}/release/t50 ${D}/${bindir}
     install -m 644 ${B}/release/t50.8.gz ${D}/${mandir}/man8
     install -m 644 ${B}/doc/README.modules ${D}/${docdir}/t50
 }
