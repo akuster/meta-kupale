@@ -11,7 +11,10 @@ PACKAGES = "\
 
 RDEPENDS_packagegroup-kupale-testing = "\
     packagegroup-kupale-base \
+    DHCPig \
+    scapy \
     t50 \
     thc-ipv6 \
     thc-ssl-dos \
+    ipv6toolkit \
 "
