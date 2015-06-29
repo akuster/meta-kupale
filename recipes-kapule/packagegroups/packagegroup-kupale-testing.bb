@@ -12,7 +12,9 @@ PACKAGES = "\
 RDEPENDS_packagegroup-kupale-testing = "\
     packagegroup-kupale-base \
     DHCPig \
-    scapy \
+    funkload \
+    rtpflood \
+    slowhttptest \
     t50 \
     thc-ipv6 \
     thc-ssl-dos \
