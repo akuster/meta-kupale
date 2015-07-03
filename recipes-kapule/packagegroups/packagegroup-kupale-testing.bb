@@ -10,7 +10,6 @@ PACKAGES = "\
         "
 
 RDEPENDS_packagegroup-kupale-testing = "\
-    packagegroup-kupale-base \
     DHCPig \
     funkload \
     rtpflood \
