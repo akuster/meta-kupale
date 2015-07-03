@@ -1,6 +1,6 @@
 require core-image-kupale.bb
 
-DESCRIPTION = "A Kupale image th testing packages"
+DESCRIPTION = "A Kupale image the testing packages"
 
 KAPULE_IMAGE_TYPE = "Kapule-testing"
 
