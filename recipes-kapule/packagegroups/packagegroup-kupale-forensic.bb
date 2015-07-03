@@ -13,7 +13,6 @@ PACKAGES = "\
     "
 
 RDEPENDS_${PN} = "\
-    packagegroup-kupale-base \
     afflib \
     chkrootkit \
     gdb \
@@ -30,7 +29,6 @@ RDEPENDS_${PN} = "\
     packagegroup-kupale-forensics-tools \
     " 
 RDEPENDS_packagegroup-kupale-forensics-tools = "\
-    packagegroup-kupale-forensic \
     ddrescue \
     volatility \
 "
