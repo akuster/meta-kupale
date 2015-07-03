@@ -9,4 +9,5 @@ IMAGE_INSTALL += "\
     packagegroup-kupale-passwd \
     packagegroup-kupale-testing \
     packagegroup-kupale-forensic \
+    packagegroup-kupale-wireless \
     "
