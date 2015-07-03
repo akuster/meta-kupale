@@ -10,4 +10,5 @@ IMAGE_INSTALL += "\
     packagegroup-kupale-testing \
     packagegroup-kupale-forensic \
     packagegroup-kupale-wireless \
+    packagegroup-kupale-scan \
     "
